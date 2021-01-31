@@ -48,7 +48,6 @@ DF
 generateCol <- function(row)
 {
   if (row[2] == 9) "TMP"
-
 }
 
 DF$newcol2<- apply(DF,1,generateCol)
