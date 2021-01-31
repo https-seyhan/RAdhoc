@@ -1,7 +1,6 @@
 setwd("C:/Heritage/release2")
 sample <- read.table("randomsamplehospital3.csv", sep=",", header=T)
 
-
 m <- 120000
 i <- 1
 
