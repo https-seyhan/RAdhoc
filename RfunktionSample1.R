@@ -24,7 +24,6 @@ tt$newcol <- 0
 
 tt$newcolumn <- ifelse(tt$Tot1==0, "Main", "Tobedetermined")
 
-
 generateTarget <- function(row)
 {
    if (row[2]== 0) "Talk"
