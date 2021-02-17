@@ -35,7 +35,6 @@ generateTarget <- function(row)
 }
 
 tt$newcol <- apply(tt,1,generateTarget)
-
 vec <- 1:10
 DF <- data.frame(start=c(1,3,5,7), end=c(2,6,7,9))
 
