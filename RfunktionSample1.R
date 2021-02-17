@@ -3,7 +3,6 @@ sample <- read.table("randomsamplehospital3.csv", sep=",", header=T)
 
 m <- 120000
 i <- 1
-
 countZeros <- function(x)
 {
   for (j in 1:m)
