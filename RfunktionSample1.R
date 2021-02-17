@@ -40,7 +40,6 @@ DF <- data.frame(start=c(1,3,5,7), end=c(2,6,7,9))
 
 DF$newcol <- apply(DF,1,function(row) mean(vec[ row[1] : row[2] ] ))
 
-
 generateCol <- function(row)
 {
   if (row[2] == 9) "TMP"
