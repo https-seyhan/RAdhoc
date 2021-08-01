@@ -8,7 +8,7 @@ countZeros <- function(x)
   for (j in 1:m)
   {
     if (sample$DaysInHospital == "0") {i=i+1 }
-  #  print (i)
+  # print (i)
   }
   return (i)
 }
