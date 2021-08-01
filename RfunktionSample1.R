@@ -13,7 +13,6 @@ countZeros <- function(x)
   return (i)
 }
 
-
 f <- function(x,y)
 {
   x^y
