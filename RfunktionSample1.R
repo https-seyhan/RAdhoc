@@ -21,7 +21,6 @@ f <- function(x,y)
 tt <-read.table("C:/Wikipedia/newfields.csv", sep=",", header=TRUE)
 
 tt$newcol <- 0
-
 tt$newcolumn <- ifelse(tt$Tot1==0, "Main", "Tobedetermined")
 
 generateTarget <- function(row)
